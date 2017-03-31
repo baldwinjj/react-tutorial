@@ -1,7 +1,8 @@
 import React from 'react'
 import Input from './Input'
-
 import List from './List'
+
+import style from '../styles/App.css'
 
 const fakeState = {
   todos: [{
@@ -20,7 +21,7 @@ const fakeState = {
 }
 
 const App = () => (
-  <div>
+  <div className={style.app}>
     <Input/>
     <List todos={fakeState.todos}/>
   </div>

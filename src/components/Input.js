@@ -1,9 +1,10 @@
 import React from 'react'
+import style from '../styles/Input.css'
 
 const Input = () => (
   <form>
-    <input type="text" name="name"/>
-    <input type="submit" value="Submit" />
+    <input className={style.text} type="text" name="name"/>
+    <input className={style.button} type="submit" value="Submit" />
   </form>
 )
 

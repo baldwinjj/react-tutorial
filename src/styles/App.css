@@ -1,0 +1,8 @@
+.app {
+  display: inline-block;
+  padding: 3em;
+  border-radius: 10px;
+  background: #ffe5aa;
+  margin: auto;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
